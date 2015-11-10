@@ -6,17 +6,14 @@
 @import "base/media_queries";
 @import "base/utilities";
 @import "base/typography";
-@import "base/forms";
+
 
 /*
  * Layouts
  */
 @import "layouts/grid";
-
-/*
- * Modules
- */
-@import "modules/buttons";
+@import "layouts/main_navigation";
+@import "layouts/middle_section";
 
 /*
  * Pages
