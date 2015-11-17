@@ -180,8 +180,13 @@ body {
   background-color: red;
 }
 
+.site-info {
+  height: 400px;
+  background-color: yellow;
+}
+
 .main-footer {
-  height: 300px;
+  height: 400px;
   background-color: purple;
 }
 
