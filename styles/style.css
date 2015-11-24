@@ -177,6 +177,11 @@ body {
   background-color: red;
 }
 
+.prod-img {
+  width: auto;
+  height: auto;
+}
+
 .main-footer {
   height: 400px;
   background-color: purple;
