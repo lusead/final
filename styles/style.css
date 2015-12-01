@@ -266,8 +266,7 @@ body {
  * Pages
  */
 .site-info {
-  height: 300px;
-  background-color: yellow;
+  width: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
