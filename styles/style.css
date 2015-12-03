@@ -133,7 +133,7 @@ p {
 }
 
 body {
-  background-color: blue;
+  background-color: lightgray;
   height: 100%;
 }
 
@@ -144,8 +144,6 @@ body {
   position: absolute;
   top: 10px;
   right: 90px;
-  text-decoration: none;
-  list-style: none;
 }
 
 .main-header {
@@ -265,10 +263,13 @@ body {
 /*
  * Pages
  */
-.header {
+.header ul li {
   text-decoration: none;
   list-style: none;
-  font-family: sans-serif;
+  padding-left: 1em;
+  float: left;
+  display: block;
+  background-color: yellow;
 }
 
 .site-info {
