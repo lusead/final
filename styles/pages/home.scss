@@ -10,9 +10,18 @@
   text-decoration: none;
 }
 
+
+.main-header ul li{
+  text-decoration: none;
+  list-style: none;
+  float: left;
+  padding-left: 0.5em;
+}
+
+
 .site-info{
   width: 100%;
   display: table;
   overflow: hidden;
-  padding-top: 50px;
+  padding-top: 30px;
 }
