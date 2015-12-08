@@ -61,7 +61,7 @@ body {
   font-weight: 300;
   font-size: 1em;
   line-height: 1.5;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Lato", sans-serif;
   color: #333;
 }
 
@@ -78,7 +78,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Josefin Slab", Georgia, Palatino, serif;
+  font-family: "PLayfair Display", Georgia, Palatino, serif;
   font-weight: 400;
 }
 
@@ -139,7 +139,7 @@ body {
 
 .main-nav {
   height: 40px;
-  width: 800px;
+  width: 100%;
   background: purple;
   position: absolute;
   top: 10px;
@@ -172,7 +172,6 @@ body {
 
 .hero {
   height: 600px;
-  background-color: red;
 }
 
 .main-footer {
@@ -270,12 +269,35 @@ body {
   float: left;
   display: block;
   background-color: yellow;
+  font-style: "PLayfair Display", Georgia, Palatino, serif;
+}
+
+.header ul li:before,
+.header ul li:after {
+  content: "";
+  display: table;
+}
+
+.header ul li:after {
+  clear: both;
+}
+
+.hero-image {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.category {
+  list-style: none;
+  text-decoration: none;
 }
 
 .site-info {
-  width: 280px;
-  display: block;
+  width: 100%;
+  display: table;
   overflow: hidden;
+  padding-top: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

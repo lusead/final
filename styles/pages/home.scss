@@ -5,14 +5,27 @@
   float: left;
   display: block;
   background-color: yellow;
+  font-style: $serif;
+  @include cf;
+
+}
+
+.hero-image{
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.category{
+  list-style: none;
+  text-decoration: none;
 
 }
 
 
-
-
 .site-info{
-  width: 280px;
-  display: block;
+  width: 100%;
+  display: table;
   overflow: hidden;
+  padding-top: 50px;
 }
