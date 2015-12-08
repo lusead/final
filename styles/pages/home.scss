@@ -1,14 +1,3 @@
-.header ul li{
-  text-decoration: none;
-  list-style: none;
-  padding-left: 1em;
-  float: left;
-  display: block;
-  background-color: yellow;
-  font-style: $serif;
-  @include cf;
-
-}
 
 .hero-image{
   width: 100%;
@@ -19,9 +8,7 @@
 .category{
   list-style: none;
   text-decoration: none;
-
 }
-
 
 .site-info{
   width: 100%;

@@ -16,46 +16,25 @@ body{
   height: 100%;
 }
 
-.main-nav{
-  height: 40px;
+.main-header ul li{
+  height: 30px;
   width: 100%;
   background: purple;
-  position: absolute;
-  top: 10px;
-  right: 90px;
+  list-style: none;
 }
 
-.main-header{
-  height:60px;
-  background-color: black;
-  position: relative;
-}
-
-
-.logo{
-  height: 40px;
-  width: 50px;
-  background: gray;
-  position: absolute;
-  top: 10px;
-  left: 5px;
+.nav{
+  float:left;
+  display: inline-block;
+  padding-left: 0.5em;
 }
 
 
-.search{
-  height:38px;
-  width: 60px;
-  position: absolute;
-  top: 11px;
-  right: 15px;
-  background-color: orange;
-}
+
 
 .hero{
   height: 600px;
 }
-
-
 
 .main-footer{
   height: 400px;
