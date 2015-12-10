@@ -75,14 +75,6 @@ body {
 /**
  * @section Headings
  */
-h1,
-h2,
-h3,
-h4 {
-  font-family: "PLayfair Display", Georgia, Palatino, serif;
-  font-weight: 400;
-}
-
 h1 {
   font-size: 6.85353em;
 }
@@ -97,6 +89,10 @@ h3 {
 
 h4 {
   font-size: 1.618em;
+}
+
+h5 {
+  font-size: 1em;
 }
 
 /**
@@ -134,7 +130,7 @@ p {
 }
 
 body {
-  background-color: lightgray;
+  background-color: teal;
   height: 100%;
 }
 
@@ -251,6 +247,12 @@ body {
 .category {
   list-style: none;
   text-decoration: none;
+}
+
+.bike-category {
+  font-style: "Lato", sans-serif;
+  text-align: center;
+  padding-top: 5px;
 }
 
 .main-header ul li {

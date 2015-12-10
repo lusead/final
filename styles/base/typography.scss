@@ -28,9 +28,8 @@ body{
 h1,
 h2,
 h3,
-h4,{
-  font-family: $serif;
-  font-weight: 400;
+h4,
+h5,{
 }
 
 h1 {
@@ -47,6 +46,10 @@ h3 {
 
 h4 {
   font-size: type-scale(1);
+}
+
+h5 {
+  font-size: type-scale(0);
 }
 
 /**
