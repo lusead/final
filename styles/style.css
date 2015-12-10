@@ -115,7 +115,7 @@ p {
 }
 
 .row {
-  margin-left: -1em;
+  margin-left: 3em;
   margin-right: -1em;
 }
 
@@ -130,7 +130,7 @@ p {
 }
 
 body {
-  background-color: teal;
+  background-color: #fff;
   height: 100%;
 }
 
@@ -152,8 +152,9 @@ body {
 
 .main-footer {
   height: 400px;
+  width: 100%;
   background-color: purple;
-  margin-top: 500px;
+  margin-top: 300px;
 }
 
 [class^="col-"] {
@@ -253,20 +254,26 @@ body {
   font-style: "Lato", sans-serif;
   text-align: center;
   padding-top: 5px;
+  font-size: 1em;
 }
 
 .main-header ul li {
   text-decoration: none;
   list-style: none;
   float: left;
-  padding-left: 0.5em;
+  padding-left: 2em;
 }
 
 .site-info {
   width: 100%;
   display: table;
   overflow: hidden;
-  padding-top: 30px;
+  padding-top: 10px;
+}
+
+.button {
+  background-color: red;
+  font-style: "PLayfair Display", Georgia, Palatino, serif;
 }
 
 /*# sourceMappingURL=style.css.map */

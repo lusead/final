@@ -6,13 +6,13 @@
 }
 
 .row {
-  margin-left: -1em;
+  margin-left: 3em;
   margin-right: -1em;
   @include cf;
 }
 
 body{
-  background-color: teal;
+  background-color: #fff;
   height: 100%;
 }
 
@@ -35,8 +35,9 @@ body{
 
 .main-footer{
   height: 400px;
+  width:100%;
   background-color: purple;
-  margin-top: 500px;
+  margin-top: 300px;
 }
 
 
